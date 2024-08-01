@@ -1,0 +1,52 @@
+.main-container {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  color: whitesmoke;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+}
+
+.brandLogo {
+  padding-top: 15px;
+}
+
+.highlight {
+  color: #e1e1e1;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+
+.footer-logo {
+  padding-left: 10px;
+}
+
+.footer-copyright {
+  font-size: 16px;
+}
+
+.footer-socials .social-icon {
+  margin: 0 5px;
+  font-size: 18px;
+  color: whitesmoke;
+}

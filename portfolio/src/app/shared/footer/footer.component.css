@@ -1,0 +1,21 @@
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+
+.footer-logo {
+  padding-left: 10px;
+}
+
+.footer-copyright {
+  font-size: 16px;
+}
+
+.footer-socials .social-icon {
+  margin: 0 5px;
+  font-size: 18px;
+  color: whitesmoke;
+}

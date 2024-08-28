@@ -1,0 +1,17 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image-container {
+  margin: 20px 50px;
+  padding-left: 100px;
+}
+.image-description {
+  margin: 0 50px;
+  padding-right: 150px;
+}
+.image-description h1{
+  font-size: 10.2rem;
+  font-weight: bolder;
+}

@@ -1,0 +1,149 @@
+
+.home-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.name-container {
+  max-width: 800px;
+}
+.name-container h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.name-container p {
+  font-size: 2.6rem;
+  padding: 0 1rem;
+  margin: 1rem 0.5rem;
+}
+.get-in-touch p {
+  font-size: 1.8rem;
+  margin-top: 5rem;
+  padding-left: 0;
+}
+.get-in-touch form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+.get-in-touch input{
+  height: 5rem;
+  flex: 1;
+  /*width: calc(70% - 15px);*/
+  width: 100%;
+  max-width: 35rem;
+  border: 2px solid gray; /* Border color */
+  font-size: 1.8rem;
+  background-color: transparent; /* Transparent background */
+  color: white; /* Text color inside the input field */
+  padding-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.get-in-touch button{
+  height: 5rem;
+  width: auto;
+  max-width: 35rem;
+  border: none;
+  font-size: 1.8rem;
+  background-color: #007BFF;
+  color: white;
+  padding: 0 20px;
+}
+.contact-icons{
+  margin-top: 15px;
+}
+.contact-icons a{
+  margin: 0 0.5rem;
+  font-size: 1.8rem;
+  color: whitesmoke;
+}
+.main-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.image-container {
+  max-width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+
+  .name-container h1 {
+    font-size: 4rem;
+  }
+  .name-container p {
+    font-size: 2rem;
+  }
+  .get-in-touch p {
+    font-size: 1.5rem;
+  }
+  .get-in-touch form {
+    flex-direction: column;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  .name-container h1 {
+    font-size: 3rem;
+  }
+  .name-container p {
+    font-size: 1.8rem;
+  }
+  .get-in-touch p {
+    font-size: 1.2rem;
+  }
+  .get-in-touch input {
+    height: 4rem;
+    max-width: 100%; /* Ensure input takes full width */
+    font-size: 1.6rem;
+  }
+  .get-in-touch button {
+    height: 4rem;
+    max-width: 100%; /* Ensure button takes full width */
+    font-size: 1.6rem;
+  }
+  .get-in-touch form {
+    flex-direction: column;
+  }
+
+
+}
+
+@media (max-width: 480px) {
+
+  .name-container h1 {
+    font-size: 2.5rem;
+  }
+  .name-container p {
+    font-size: 1.5rem;
+  }
+  .get-in-touch p {
+    font-size: 1.2rem;
+  }
+  .get-in-touch input {
+    height: 3rem;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .get-in-touch button {
+    height: 3rem;
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  .get-in-touch form {
+    flex-direction: column; /* Stack input and button vertically */
+    align-items: stretch; /* Stretch to full width */
+  }
+
+}
